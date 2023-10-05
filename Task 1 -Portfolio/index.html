@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    </head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS843Y12XB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        
+        function gtag(){dataLayer.push(arguments);}
+        
+        gtag('js', new Date());
+
+        gtag('config', 'G-PS843Y12XB');
+    </script>
+    
+    <body>
+        <nav id="navbar">
+            
+            <img src="/images/Portfolio.jpg" alt="Portfolio" id="logo">
+            
+            <!-- Menu -->
+            <ul id="menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#links">Contact</a></li>
+            </ul>
+            
+            <span class="openbtn" onclick="openNav()">&#9776;</span>
+        </nav>
+        
+
+        <section class="site-header" id="home">
+            
+            <!-- profile picture -->
+            <img class="profile-pic" src="/images/ranjan.jpg" alt="profile picture">
+            
+            <!-- introduction -->
+            <div class="site-header-content">
+                <h1>Hi! My name is Ranjan Srivastava, I am 21 years old, currently living in Gorakhpur, India.</h1>
+                <h2>I am learning full stack development. Watch this space for my upcoming projects.</h2>
+            </div>
+
+            <!-- More About Me -->
+            <a href="#about_me" id="more_about_me">Know More About Me</a>
+        </section>
+
+
+        <!-- About Me -->
+        <section id="about_me">
+            <h1>About Me</h1>
+            
+            <article>
+                <p>Hi! I am pursuing B.Tech in Information Technology from MMMUT Gorakhpur.</p>
+
+                <p>My interest lies in Web Development, Machine Learning, Software Development.</p>
+
+                <p>Hobbies: I enjoy reading, listening to music.</p>
+            </article>
+        </section>
+
+
+        <!-- Education -->
+        <section id="education">
+            <h1>Education</h1>
+            
+            <div>
+                
+                <!-- Under-Graduate -->
+                <div id="ug">
+                    <h3>Graduation</h3>
+                    <p class="mar"><strong>University:</strong> MMMUT Gorakhpur</p>
+                    <p class="mar"><strong>Session:</strong> 2020-2024</p>
+                    <p class="mar"><strong>Percentage:</strong> 80.4</p>
+                </div>
+                
+                <!-- 12th -->
+                <div id="twelve">
+                    <h3>12th</h3>
+                    <p class="mar"><strong>School:</strong> Nav Jeevan Mission School, Deoria</p>
+                    <p class="mar"><strong>Passing Year:</strong> 2019</p>
+                    <p class="mar"><strong>Percentage:</strong> 91.6</p>
+                </div>
+                
+                <!-- 10th -->
+                <div id="tenth">
+                    <h3>10th</h3>
+                    <p class="mar"><strong>School:</strong> Nav Jeevan Mission School, Deoria</p>
+                    <p class="mar"><strong>Passing Year:</strong> 2017</p>
+                    <p class="mar"><strong>Percentage:</strong> 95</p>    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills">
+            <h1 id="skill">Skills</h1>
+
+            <div class="left">
+                <h1>My creative skills and experiences.</h1>
+                
+                <p>Hello, Myself Ranjan! I am pursuing B.Tech in Information Technology from MMMUT Gorakhpur. As a dedicated, self-motivated individual with good interpersonal skills, I am self-driven and disciplined. Looking for opportunities that will allow me to utilize my skills effectively and allow me to grow. What I might lack in skills I make up for with my determination to learn. Open to new experiences and opportunities! </p>
+
+                <p>I am a frontend developer. You can check out my projects at GitHub.</p>
+
+                <p>Github Link: <a href="https://github.com/ranjan2794" target="_blank">ranjan2794</a></p>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><span>&#10031;&nbsp; Web Development</span></li>
+                    <li><span>&#10031;&nbsp; Machine Learning</span></li>
+                    <li><span>&#10031;&nbsp; Software Development</span></li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects">
+            <h1 id="project">Projects</h1>
+
+            <div class="center">
+                <div class="">
+                    <a href="https://github.com/ranjan2794/WEATHER-APP" target="_blank"><img src="/images/weather.png" alt="WEATHER-APP" class="size"></a>
+                </div>
+
+                <div class="">
+                    <a href="https://github.com/ranjan2794/Car_price_predictor" target="_blank"><img src="/images/ml.png" alt="ML Project" class="size"></a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Achievements -->
+        <section id="achievements">
+            <h1 id="achievement">Achievements</h1>
+
+            <div>
+                <div id="leetcode">
+                    <h1>LeetCode</h1>
+                    <p>400 coding problems solved</p>
+                    <p>1758 leetcode rating</p>
+                </div>
+                
+                <div id="codeChef">
+                    <h1>CodeChef</h1>
+                    <p>3 star at codechef</p>
+                    <p>1624 codechef rating</p>
+                </div>
+
+                <div id="gfg">
+                    <h1>Gfg</h1>
+                    <p>100 coding problems solved</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact">
+            <!-- <h1 id="links">Links</h1> -->
+            <h1 id="links">Get in touch</h1>
+            
+            <div>
+                <!-- Email -->
+                <div class="height-width">
+                    <h1><a href="mailto:ranjan55445@gmail.com">Send Email</a></h1>
+                </div>
+
+                <!-- Github link -->
+                <div class="height-width">
+                    <h1><a href="https://github.com/ranjan2794" target="_blank">Github</a></h1>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="height-width">
+                    <h1><a href="https://www.linkedin.com/in/ranjan2794" target="_blank">LinkedIn</a></h1>
+                </div>
+                
+            </div>
+        </section>
+
+        <hr>
+
+        <footer class="footer">
+            <p>&copy; 2023 By Ranjan Srivastava</p>
+        </footer>
+
+        <script src="/script.js"></script>
+    </body>
+</html>
